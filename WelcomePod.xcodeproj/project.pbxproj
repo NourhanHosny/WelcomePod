@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6B3F10282132D104004D290E /* WelcomePod.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B3F10262132D104004D290E /* WelcomePod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BD6BB132132E31E00B35750 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6BB122132E31E00B35750 /* Main.storyboard */; };
+		6BD6BB152132E34500B35750 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6BB142132E34500B35750 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6B3F10232132D104004D290E /* WelcomePod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WelcomePod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3F10262132D104004D290E /* WelcomePod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WelcomePod.h; sourceTree = "<group>"; };
 		6B3F10272132D104004D290E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BD6BB122132E31E00B35750 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6BD6BB142132E34500B35750 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +34,8 @@
 		6B3F10192132D104004D290E = {
 			isa = PBXGroup;
 			children = (
+				6BD6BB142132E34500B35750 /* ViewController.swift */,
+				6BD6BB122132E31E00B35750 /* Main.storyboard */,
 				6B3F10252132D104004D290E /* WelcomePod */,
 				6B3F10242132D104004D290E /* Products */,
 			);
@@ -130,6 +136,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BD6BB152132E34500B35750 /* ViewController.swift in Sources */,
+				6BD6BB132132E31E00B35750 /* Main.storyboard in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
