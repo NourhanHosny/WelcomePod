@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 s.platform = :ios
 s.ios.deployment_target = '11.3'
 s.name = "WelcomePod"
-s.summary = ""
+s.summary = "this is welcome screen pod"
 s.requires_arc = true
 
 # 2
@@ -23,14 +23,11 @@ s.homepage = "https://github.com/NourhanHosny/WelcomePod"
 s.source = { :git => "https://github.com/NourhanHosny/WelcomePod.git",
 :tag => "#{s.version}" }
 
-
 # 7
-s.source_files = "WelcomePod/**/*.{swift}"
+s.source_files = "ViewController.swift"
+
 
 # 8
-s.resources = "WelcomePod/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
-
-# 9
 s.swift_version = "4"
 
 end
